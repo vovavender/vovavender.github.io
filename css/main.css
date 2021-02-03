@@ -1,0 +1,1380 @@
+/* reset.css */
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("./fonts/Montserrat/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("./fonts/Montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("./fonts/Roboto/Roboto-Light.ttf");
+}
+
+main section div.container h2 {
+  margin-top: 89px;
+  margin-bottom: 35px;
+  font-size: 26px;
+  font-family: 'Montserrat-Bold';
+  text-align: center;
+  font-weight: bold;
+  color: #444444;
+}
+
+main section div.container .three-block h3 {
+  font-size: 24px;
+  font-family: 'Montserrat-Bold';
+  color: white;
+  margin-bottom: 15px;
+}
+
+header .container .first .screen .button, main section div.container .three-block .button-step, main section div.container .block-portret .four-block .four-one .portret-img .bradly::after, main section div.container .block-portret .four-block .four-one .portret-img .maria::after, main section div.container .block-portret .four-block .four-one .portret-img .diana::after, main section div.container .block-portret .four-block .four-one .portret-img .pierce::after, main section div.container .send-mail .submit {
+  background-color: #FF4E50;
+}
+
+header .container .header .logo a, header .container .header .log-in a:first-child, header .container .header .sign-up, header .container .first .screen h1, header .container .first .screen p, header .container .first .screen .button, main section div.container .three-block .button-step, main section div.container .three-block p {
+  color: white;
+}
+
+main section div.container .block-portret .four-block .four-one .portret-img .bradly, main section div.container .block-portret .four-block .four-one .portret-img .maria, main section div.container .block-portret .four-block .four-one .portret-img .diana, main section div.container .block-portret .four-block .four-one .portret-img .pierce {
+  width: 120px;
+  height: 120px;
+  background-size: 120px 120px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  position: relative;
+}
+
+main section div.container .block-portret .four-block .four-one .portret-img .bradly::after, main section div.container .block-portret .four-block .four-one .portret-img .maria::after, main section div.container .block-portret .four-block .four-one .portret-img .diana::after, main section div.container .block-portret .four-block .four-one .portret-img .pierce::after {
+  content: '';
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  bottom: 3px;
+  right: 2px;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+main section div.container .photo-block .pohoto-one .one-left, main section div.container .photo-block .pohoto-one .one-center, main section div.container .photo-block .pohoto-one .one-right, main section div.container .photo-block .photo-two .two-left, main section div.container .photo-block .photo-three .three-right {
+  width: 300px;
+  height: 310px;
+}
+
+main section div.container .photo-block .photo-two .two-left, main section div.container .photo-block .photo-two .two-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-size: 22px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+footer .footer-block .footer-center p, footer .footer-block .footer-center-two p {
+  margin-bottom: 11px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #444444;
+  text-align: center;
+}
+
+body {
+  font-family: 'Montserrat','Roboto';
+}
+
+header {
+  background-image: url(../images/Background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+
+header .container {
+  width: 940px;
+  margin: 0px auto;
+}
+
+@media screen and (max-width: 940px) {
+  header .container {
+    width: 768px;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  header .container {
+    width: 670px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  header .container {
+    width: 576px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  header .container {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  header .container {
+    width: 280px;
+  }
+}
+
+header .container .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 40px;
+  margin-bottom: 148px;
+}
+
+@media screen and (max-width: 400px) {
+  header .container .header {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  header .container .header .logo {
+    display: none;
+  }
+}
+
+header .container .header .logo a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+header .container .header .log-in a:first-child {
+  font-size: 14px;
+  margin-right: 20px;
+  text-decoration: none;
+  font-family: 'Montserrat';
+}
+
+header .container .header .sign-up {
+  width: 90px;
+  height: 36px;
+  border-radius: 40px;
+  border: 2px solid white;
+  background-color: transparent;
+  font-family: 'Montserrat';
+  font-size: 14px;
+}
+
+header .container .header .sign-up:hover {
+  cursor: pointer;
+}
+
+header .container .first {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .container .first .screen {
+  width: 470px;
+  height: 253px;
+  margin-bottom: 224px;
+}
+
+header .container .first .screen h1 {
+  font-size: 52px;
+  font-family: 'Montserrat';
+  line-height: 63px;
+  margin-bottom: 29px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 400px) {
+  header .container .first .screen h1 {
+    font-size: 30px;
+  }
+}
+
+header .container .first .screen .button {
+  font-size: 14px;
+  font-family: 'Montserrat';
+}
+
+header .container .first .screen p {
+  font-size: 24px;
+  font-family: 'Roboto';
+  margin-bottom: 33px;
+}
+
+@media screen and (max-width: 400px) {
+  header .container .first .screen p {
+    font-size: 18px;
+  }
+}
+
+header .container .first .screen .button {
+  width: 225px;
+  height: 40px;
+  border-radius: 40px;
+  border: none;
+}
+
+header .container .first .screen .button:hover {
+  cursor: pointer;
+}
+
+main section div.container {
+  width: 940px;
+  margin: 0px auto;
+}
+
+@media screen and (max-width: 940px) {
+  main section div.container {
+    width: 768px;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  main section div.container {
+    width: 748px;
+  }
+}
+
+@media screen and (max-width: 751px) {
+  main section div.container {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  main section div.container {
+    width: 660px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  main section div.container {
+    width: 640px;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  main section div.container {
+    width: 576px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  main section div.container {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  main section div.container {
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  main section div.container h2 {
+    font-size: 22px;
+    margin-top: 27px;
+  }
+}
+
+main section div.container .three-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 400px) {
+  main section div.container .three-block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+main section div.container .three-block .button-step {
+  width: 70px;
+  height: 20px;
+  border-radius: 40px;
+  border: none;
+  margin-bottom: 15px;
+  font-size: 10px;
+  font-family: 'Montserrat';
+  letter-spacing: 2px;
+}
+
+main section div.container .three-block .button-step:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 400px) {
+  main section div.container .three-block .button-step {
+    margin-bottom: 20px;
+  }
+}
+
+main section div.container .three-block p {
+  font-size: 14px;
+  font-family: 'Roboto-Light';
+  margin-bottom: 21px;
+}
+
+main section div.container .three-block .one-small, main section div.container .three-block .two-small, main section div.container .three-block .three-small {
+  width: 250px;
+}
+
+@media screen and (max-width: 940px) {
+  main section div.container .three-block .one-small, main section div.container .three-block .two-small, main section div.container .three-block .three-small {
+    width: 230px;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  main section div.container .three-block .one-small, main section div.container .three-block .two-small, main section div.container .three-block .three-small {
+    width: 165px;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  main section div.container .three-block .one-small, main section div.container .three-block .two-small, main section div.container .three-block .three-small {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  main section div.container .three-block .one-small, main section div.container .three-block .two-small, main section div.container .three-block .three-small {
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  main section div.container .three-block .one-small, main section div.container .three-block .two-small, main section div.container .three-block .three-small {
+    width: 250px;
+  }
+}
+
+main section div.container .three-block .one-block {
+  width: 300px;
+  height: 400px;
+  background-image: url("../images/Step 1 image (2).jpg");
+  background-position: top center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 940px) {
+  main section div.container .three-block .one-block {
+    width: 245px;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  main section div.container .three-block .one-block {
+    width: 238px;
+  }
+}
+
+@media screen and (max-width: 751px) {
+  main section div.container .three-block .one-block {
+    width: 220px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  main section div.container .three-block .one-block {
+    width: 205px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  main section div.container .three-block .one-block {
+    width: 195px;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  main section div.container .three-block .one-block {
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  main section div.container .three-block .one-block {
+    width: 125px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  main section div.container .three-block .one-block {
+    width: 300px;
+    height: 240px;
+    margin-bottom: 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+main section div.container .three-block .two-block {
+  width: 300px;
+  height: 400px;
+  background-image: url("../images/Step 1 image (1).jpg");
+  background-position: top center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 940px) {
+  main section div.container .three-block .two-block {
+    width: 245px;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  main section div.container .three-block .two-block {
+    width: 238px;
+  }
+}
+
+@media screen and (max-width: 751px) {
+  main section div.container .three-block .two-block {
+    width: 220px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  main section div.container .three-block .two-block {
+    width: 205px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  main section div.container .three-block .two-block {
+    width: 195px;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  main section div.container .three-block .two-block {
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  main section div.container .three-block .two-block {
+    width: 125px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  main section div.container .three-block .two-block {
+    width: 300px;
+    height: 240px;
+    margin-bottom: 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+main section div.container .three-block .three-three {
+  width: 300px;
+  height: 400px;
+  background-image: url("../images/Step 1 image.jpg");
+  background-position: top center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 940px) {
+  main section div.container .three-block .three-three {
+    width: 245px;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  main section div.container .three-block .three-three {
+    width: 238px;
+  }
+}
+
+@media screen and (max-width: 751px) {
+  main section div.container .three-block .three-three {
+    width: 220px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  main section div.container .three-block .three-three {
+    width: 205px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  main section div.container .three-block .three-three {
+    width: 195px;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  main section div.container .three-block .three-three {
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  main section div.container .three-block .three-three {
+    width: 125px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  main section div.container .three-block .three-three {
+    width: 300px;
+    height: 240px;
+    margin-bottom: 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+main section div.container .block-portret .four-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 36px;
+}
+
+@media screen and (max-width: 775px) {
+  main section div.container .block-portret .four-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  main section div.container .block-portret .four-block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+main section div.container .block-portret .four-block .portret-one, main section div.container .block-portret .four-block .portret-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (max-width: 775px) {
+  main section div.container .block-portret .four-block .portret-one, main section div.container .block-portret .four-block .portret-two {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 236px;
+  }
+}
+
+main section div.container .block-portret .four-block .four-one {
+  text-align: center;
+}
+
+@media screen and (max-width: 775px) {
+  main section div.container .block-portret .four-block .four-one {
+    margin-bottom: 20px;
+  }
+}
+
+main section div.container .block-portret .four-block .four-one .portret-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-bottom: 17px;
+}
+
+main section div.container .block-portret .four-block .four-one .portret-img .bradly {
+  background-image: url("../images/port-1.jpg");
+}
+
+main section div.container .block-portret .four-block .four-one .portret-img .bradly::after {
+  background-image: url("../images/Shape.png");
+}
+
+main section div.container .block-portret .four-block .four-one .portret-img .maria {
+  background-image: url("../images/port-2.jpg");
+  background-size: 120px 120px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  position: relative;
+}
+
+main section div.container .block-portret .four-block .four-one .portret-img .maria::after {
+  background-color: #19D4CA;
+  background-image: url("../images/brush.png");
+}
+
+main section div.container .block-portret .four-block .four-one .portret-img .diana {
+  background-image: url("../images/port-3.jpg");
+}
+
+main section div.container .block-portret .four-block .four-one .portret-img .diana::after {
+  background-color: #FFA710;
+  background-image: url("../images/camera.png");
+}
+
+main section div.container .block-portret .four-block .four-one .portret-img .pierce {
+  background-image: url("../images/port-4.jpg");
+}
+
+main section div.container .block-portret .four-block .four-one .portret-img .pierce::after {
+  background-color: #667DF3;
+  background-image: url("../images/airplane.png");
+}
+
+main section div.container .block-portret .four-block .name {
+  color: #444444;
+  margin-bottom: 12px;
+  font-family: 'Montserrat-Bold';
+  font-size: 14px;
+  font-weight: bold;
+}
+
+main section div.container .block-portret .four-block .read {
+  color: #666666;
+  font-family: 'Roboto-Light';
+  font-size: 14px;
+}
+
+main section div.container .block-portret .see-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main section div.container .block-portret .see-block .see {
+  width: 180px;
+  height: 40px;
+  background-color: transparent;
+  color: #FF4E50;
+  border: 2px solid #FF4E50;
+  border-radius: 40px;
+  font-family: 'Montserrat';
+  font-size: 14px;
+}
+
+main section div.container .block-portret .see-block .see:hover {
+  cursor: pointer;
+}
+
+main section div.container .photo-block .pohoto-one, main section div.container .photo-block .photo-two {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 400px) {
+  main section div.container .photo-block .pohoto-one, main section div.container .photo-block .photo-two {
+    margin-bottom: 0px;
+  }
+}
+
+main section div.container .photo-block a {
+  color: white;
+  font-size: 22px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+
+main section div.container .photo-block .pohoto-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 400px) {
+  main section div.container .photo-block .pohoto-one {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+main section div.container .photo-block .pohoto-one .one-left, main section div.container .photo-block .pohoto-one .one-center, main section div.container .photo-block .pohoto-one .one-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 940px) {
+  main section div.container .photo-block .pohoto-one .one-left, main section div.container .photo-block .pohoto-one .one-center, main section div.container .photo-block .pohoto-one .one-right {
+    width: 245px;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  main section div.container .photo-block .pohoto-one .one-left, main section div.container .photo-block .pohoto-one .one-center, main section div.container .photo-block .pohoto-one .one-right {
+    width: 238px;
+  }
+}
+
+@media screen and (max-width: 751px) {
+  main section div.container .photo-block .pohoto-one .one-left, main section div.container .photo-block .pohoto-one .one-center, main section div.container .photo-block .pohoto-one .one-right {
+    width: 220px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  main section div.container .photo-block .pohoto-one .one-left, main section div.container .photo-block .pohoto-one .one-center, main section div.container .photo-block .pohoto-one .one-right {
+    width: 205px;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  main section div.container .photo-block .pohoto-one .one-left, main section div.container .photo-block .pohoto-one .one-center, main section div.container .photo-block .pohoto-one .one-right {
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  main section div.container .photo-block .pohoto-one .one-left, main section div.container .photo-block .pohoto-one .one-center, main section div.container .photo-block .pohoto-one .one-right {
+    width: 125px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  main section div.container .photo-block .pohoto-one .one-left, main section div.container .photo-block .pohoto-one .one-center, main section div.container .photo-block .pohoto-one .one-right {
+    width: 300px;
+    height: 120px;
+    margin-bottom: 10px;
+  }
+}
+
+main section div.container .photo-block .pohoto-one p {
+  font-size: 22px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+main section div.container .photo-block .pohoto-one .one-left {
+  background-image: url("../images/Sport.jpg");
+  background-position: top center;
+}
+
+main section div.container .photo-block .pohoto-one .one-center {
+  background-image: url("../images/Healath.jpg");
+  background-position: top center;
+}
+
+@media screen and (max-width: 400px) {
+  main section div.container .photo-block .pohoto-one .one-center {
+    background-position: center;
+  }
+}
+
+main section div.container .photo-block .pohoto-one .one-right {
+  background-image: url("../images/Extreme.jpg");
+  background-position: top center;
+}
+
+main section div.container .photo-block .photo-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 400px) {
+  main section div.container .photo-block .photo-two {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+main section div.container .photo-block .photo-two .two-left {
+  background-image: url("../images/Games.jpg");
+}
+
+@media screen and (max-width: 940px) {
+  main section div.container .photo-block .photo-two .two-left {
+    width: 245px;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  main section div.container .photo-block .photo-two .two-left {
+    width: 238px;
+  }
+}
+
+@media screen and (max-width: 751px) {
+  main section div.container .photo-block .photo-two .two-left {
+    width: 220px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  main section div.container .photo-block .photo-two .two-left {
+    width: 205px;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  main section div.container .photo-block .photo-two .two-left {
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  main section div.container .photo-block .photo-two .two-left {
+    width: 125px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  main section div.container .photo-block .photo-two .two-left {
+    width: 300px;
+    height: 120px;
+    margin-bottom: 10px;
+  }
+}
+
+main section div.container .photo-block .photo-two .two-right {
+  background-image: url("../images/Culture.jpg");
+  width: 620px;
+  height: 310px;
+}
+
+@media screen and (max-width: 940px) {
+  main section div.container .photo-block .photo-two .two-right {
+    width: 510px;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  main section div.container .photo-block .photo-two .two-right {
+    width: 462px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  main section div.container .photo-block .photo-two .two-right {
+    width: 435px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  main section div.container .photo-block .photo-two .two-right {
+    width: 423px;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  main section div.container .photo-block .photo-two .two-right {
+    width: 380px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  main section div.container .photo-block .photo-two .two-right {
+    width: 265px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  main section div.container .photo-block .photo-two .two-right {
+    width: 300px;
+    height: 120px;
+    margin-bottom: 10px;
+  }
+}
+
+main section div.container .photo-block .photo-three {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 400px) {
+  main section div.container .photo-block .photo-three {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+main section div.container .photo-block .photo-three .three-left, main section div.container .photo-block .photo-three .three-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main section div.container .photo-block .photo-three .three-left {
+  background-image: url("../images/Culture Copy.jpg");
+  width: 620px;
+  height: 310px;
+}
+
+@media screen and (max-width: 940px) {
+  main section div.container .photo-block .photo-three .three-left {
+    width: 510px;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  main section div.container .photo-block .photo-three .three-left {
+    width: 492px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  main section div.container .photo-block .photo-three .three-left {
+    width: 435px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  main section div.container .photo-block .photo-three .three-left {
+    width: 423px;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  main section div.container .photo-block .photo-three .three-left {
+    width: 380px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  main section div.container .photo-block .photo-three .three-left {
+    width: 265px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  main section div.container .photo-block .photo-three .three-left {
+    width: 300px;
+    height: 120px;
+    margin-bottom: 10px;
+  }
+}
+
+main section div.container .photo-block .photo-three .three-right {
+  background-image: url("../images/Traveling.jpg");
+}
+
+@media screen and (max-width: 940px) {
+  main section div.container .photo-block .photo-three .three-right {
+    width: 245px;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  main section div.container .photo-block .photo-three .three-right {
+    width: 238px;
+  }
+}
+
+@media screen and (max-width: 751px) {
+  main section div.container .photo-block .photo-three .three-right {
+    width: 220px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  main section div.container .photo-block .photo-three .three-right {
+    width: 205px;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  main section div.container .photo-block .photo-three .three-right {
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  main section div.container .photo-block .photo-three .three-right {
+    width: 125px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  main section div.container .photo-block .photo-three .three-right {
+    width: 300px;
+    height: 120px;
+  }
+}
+
+main section div.container .send-mail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 400px) {
+  main section div.container .send-mail {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  main section div.container .send-mail .mail-sumbit {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+main section div.container .send-mail p {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #666666;
+  font-size: 18px;
+  font-family: 'Roboto-Light';
+  font-weight: normal;
+}
+
+main section div.container .send-mail .email-forms {
+  width: 300px;
+  height: 40px;
+  border: 1px solid #D4D4D4;
+}
+
+@media screen and (max-width: 576px) {
+  main section div.container .send-mail .email-forms {
+    margin-bottom: 10px;
+  }
+}
+
+main section div.container .send-mail .submit {
+  margin-left: 10px;
+  width: 173px;
+  height: 40px;
+  border: none;
+  border-radius: 40px;
+  color: white;
+}
+
+main section div.container .send-mail .submit:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+  main section div.container .send-mail .submit {
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+
+main section div.container .send-mail input[placeholder] {
+  padding-left: 15px;
+  font-size: 14px;
+  color: #999999;
+}
+
+footer {
+  border-top: 2px solid #FF4E50;
+}
+
+footer .container {
+  width: 940px;
+  margin: 0px auto;
+}
+
+@media screen and (max-width: 940px) {
+  footer .container {
+    width: 768px;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  footer .container {
+    width: 692px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  footer .container {
+    width: 670px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  footer .container {
+    width: 576px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  footer .container {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  footer .container {
+    width: 320px;
+  }
+}
+
+footer .footer-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 38px;
+  margin-bottom: 36px;
+}
+
+@media screen and (max-width: 400px) {
+  footer .footer-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  footer .footer-block .footer-left {
+    margin-bottom: 10px;
+  }
+}
+
+footer .footer-block .footer-left p {
+  font-family: 'Montserrat';
+  font-size: 16px;
+  color: #FF4E50;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 400px) {
+  footer .footer-block .footer-center {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  footer .footer-block .footer-center .main {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  footer .footer-block .footer-center .main ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+footer .footer-block .footer-center li {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 400px) {
+  footer .footer-block .footer-center li {
+    margin-left: 10px;
+  }
+}
+
+footer .footer-block .footer-center li a {
+  font-family: 'Roboto-Light';
+  font-size: 14px;
+  text-decoration: none;
+  color: #999999;
+}
+
+footer .footer-block .footer-right p {
+  text-align: end;
+  margin-bottom: 11px;
+  font-size: 10px;
+  font-weight: 700;
+  color: #cccccc;
+  letter-spacing: 1px;
+}
+/*# sourceMappingURL=main.css.map */

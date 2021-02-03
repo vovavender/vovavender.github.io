@@ -1,0 +1,71 @@
+%font-list{
+    margin-top: 89px;
+    margin-bottom: 35px;
+    font-size: 26px;
+    font-family: 'Montserrat-Bold';
+    text-align: center;
+    font-weight: bold;
+    color: #444444;
+}
+
+
+%p_style{
+    font-size: 24px;
+    font-family: 'Montserrat-Bold';
+    color: white;
+    margin-bottom: 15px;
+}
+
+%color{
+    background-color: #FF4E50;
+}
+
+%white{
+    color: white;
+}
+
+%icon-photo{
+    width:120px;
+    height: 120px;
+    background-size: 120px 120px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+}
+
+%icon-ball{
+    content: '';
+
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    bottom: 3px;
+    right:2px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+%photo-one{
+    width: 300px;
+    height: 310px;
+}
+
+%photo-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+%footer-center-p{
+    margin-bottom: 11px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #444444;
+    text-align: center;
+}
