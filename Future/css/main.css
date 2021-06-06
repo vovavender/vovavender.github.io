@@ -1,0 +1,233 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+	color: #201b2d;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+}
+
+p {
+	line-height: 1.65em;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header {
+	background-image: linear-gradient(to right bottom, #4ebffe, #46b3f5, #40a7ec, #3b9be3, #378fd9);
+	padding-top: 100px;
+	padding-bottom: 225px;
+	color: #fff;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.offer {
+	width: 490px;
+}
+
+.title {
+	font-size: 37px;
+}
+
+.title span {
+	font-size: 37px;
+}
+
+.intro {
+	margin-bottom: 37px;
+	margin-top: 30px;
+	width: 380px;
+	font-family: 'Open-Sans';
+	font-size: 16px;
+}
+
+.btn {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	background: #ffd429;
+	color: #2e2a1b;
+	display: block;
+	width: 222px;
+	padding: 19px 0;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+.btn:hover {
+	background: #ffcc00
+}
+
+.desktop {
+	margin-top: 72px;
+}
+
+.learn {
+	padding-top: 108px;
+	padding-bottom: 120px;
+}
+
+.section-title {
+	font-size: 30px;
+	text-align: center;
+}
+
+.skills {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 70px;
+	text-align: center;
+}
+
+.skill, .skill-free, .skill-change{
+	display: flex;
+	flex-direction: column;
+}
+
+.img-icon{
+	text-align: center;
+	margin-bottom: 29px;
+}
+
+.skill {
+	width: 290px;
+}
+
+.skill-title {
+	font-size: 18px;
+}
+
+.skill-text {
+	margin-top: 7px;
+}
+
+.skill-free {
+	width: 290px;
+}
+
+.skill-change {
+}
+
+.mail {
+	background: #ecf3f8;
+	padding-top: 173px;
+	padding-bottom: 190px;
+}
+
+.form {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;align-items: center;
+}
+
+.input {
+	width: 343px;
+	border: 1px solid #bfb8d1;
+	font-size: 15px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	height: 48px;
+	padding-left: 38px;
+	margin-bottom: 15px;
+}
+
+.btn-form {
+	width: 343px;
+	border: 0;
+	cursor: pointer;
+	display: inline;
+}
+
+.footer {
+	padding: 33px 0;
+	background: #164d7a;
+}
+
+.credits {
+	color: white;
+	font-size: 14px;
+	margin: 0;
+	text-align: center;
+}
+
+/*Adaptiv*/
+
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+	.wrapper {
+		flex-direction: column;
+	}
+	.offer {
+		margin-top: 35px;
+		width: 100%;
+	}
+	.intro {
+		width: auto;
+	}
+	.desktop {
+		display: block;
+	    width: 549px;
+	    margin: 72px auto 0;
+	}
+	.skills {
+		flex-direction: column;
+	}
+	.skill {
+		width: auto;
+		margin-bottom: 30px;
+	}
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+	.desktop {
+		width: 100%;
+	}
+	.input {
+		width: 100%;
+	}
+	.btn {
+		margin-left: 0;
+	    margin-top: 15px;
+	    width: 100%;
+	}
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+}
