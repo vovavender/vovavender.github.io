@@ -1,0 +1,44 @@
+/* .screen-zmina{
+    padding-top: 100px;
+} */
+
+body{
+    background: rgba(72, 72, 240, 0.349);
+}
+
+.iphon-screen{
+    background-image: url(png-hand.png);
+    background-repeat: no-repeat;
+    background-position: 47% 50%;
+    width: 100%;
+    height: 500px;
+    padding-top: 95px;
+}
+
+.bg-screen-green{
+    font-size: 30px;
+    position: relative;
+    margin: 0px auto;
+    background: rgb(66, 168, 35);
+    width: 135px;
+    height: 235px;
+    text-align: center;
+    color: white;
+}
+
+.bg-black-screen{
+    left: 0px;
+    top: 0px;
+    margin: 0px auto;
+    background: black;
+    width: 100%;
+    height: 0px;
+    text-align: center;
+    color: white;
+}
+
+h1{
+    position: absolute;
+    top: 100px;
+    left: 20px;
+}
