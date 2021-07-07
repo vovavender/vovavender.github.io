@@ -1,0 +1,195 @@
+h1{
+    font-size: 76px;
+    text-align: center;
+}
+
+.time-end{
+    padding-top: 15px;
+    width: 400px;
+    height: 130px;
+    border: 1px solid lightslategray;
+    background: white;
+    /* margin: 0px auto; */
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+.time-text-end, h3{
+    font-size: 25px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+}
+
+.modal-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: -1;
+}
+
+.btn-block{
+    width: 30%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="button"]{
+    font-size: 20px;
+    background: #cf2f2f;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="button"].check{
+    background: #d35a5a;
+}
+
+input[type="button"].next{
+    background: #5ad35a;
+    display: none;
+}
+
+.btn-close{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.close{
+    font-size: 18px;
+    /* margin:0px auto; */
+}
+
+.container{
+    /* width: 60%; */
+    margin: 70px auto;
+    display:flex;
+    justify-content: space-around;
+}
+
+.style-block{
+    width: 450px;
+    height: 410px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* .img{
+    background-image: url(https://upload.wikimedia.org/wikipedia/ru/thumb/5/53/Arsenal_FC.svg/1200px-Arsenal_FC.svg.png);
+    background-repeat: no-repeat;
+    background-size: 440px 400px;
+    background-position: center;
+} */
+
+.img-style, .img-styles{
+    border: 2px solid #6d6765;
+    width: 112px;
+    height: 102px;
+    font-size: 20px;
+}
+
+/* .modal-timer-text{
+    display: none;
+} */
+
+/*Ваіант через імг стуле*/
+/* .img-style{
+    background-image: url(https://upload.wikimedia.org/wikipedia/ru/thumb/5/53/Arsenal_FC.svg/1200px-Arsenal_FC.svg.png);
+    background-repeat: no-repeat;
+    background-size: 440px 400px;
+    background-position: center;
+    border: none;
+} */
+
+.go-block{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://upload.wikimedia.org/wikipedia/ru/thumb/5/53/Arsenal_FC.svg/1200px-Arsenal_FC.svg.png);
+    background-repeat: no-repeat;
+    background-size: 440px 400px;
+    background-position: center;
+    border: none;
+} 
+
+/*POSITION ELEMENT IMG*/
+.img-block-1{
+    background-position: 0% 0%;
+}
+
+.img-block-2{
+    background-position: 35% 0%;
+}
+
+.img-block-3{
+    background-position: 70% 0%;
+}
+
+.img-block-4{
+    background-position: 105% 0%;
+}
+
+.img-block-5{
+    background-position: 0% 34%;
+}
+
+.img-block-6{
+    background-position: 35% 34%;
+}
+
+.img-block-7{
+    background-position: 70% 34%;
+}
+
+.img-block-8{
+    background-position: 105% 34%;
+}
+
+.img-block-9{
+    background-position: 0% 68%;
+}
+
+.img-block-10{
+    background-position: 35% 68%;
+}
+
+.img-block-11{
+    background-position: 70% 68%;
+}
+
+.img-block-12{
+    background-position: 105% 68%;
+}
+
+.img-block-13{
+    background-position: 0% 102%;
+}
+
+.img-block-14{
+    background-position: 32% 100%;
+}
+
+.img-block-15{
+    background-position: 75% 96%;
+}
+
+.img-block-16{
+    background-position: 113% 92%;
+}
+
+
