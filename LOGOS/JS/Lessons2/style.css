@@ -1,0 +1,153 @@
+.form, .profil-man, .profil-woman{
+    width: 400px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    padding-bottom: 15px;
+    margin: 125px auto;
+}
+
+.profil-man, .profil-woman{
+    padding-bottom: 0px;
+    display: none;
+}
+
+h2{
+    padding: 10px;
+    margin: 0px;
+    color:white;
+    text-align: center;
+    background-color: #46be4e;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.top, .top-small, .top-bottom, .position, .register {
+    padding-left:15px;
+    margin-bottom: 10px;
+}
+
+#man, #woman, #agree{
+    margin-left:15px;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"] {
+    border: 1px solid #cccccc; /*цвет рамки*/
+    border-radius: 3px; /*закругление углов (общее)*/
+    -webkit-border-radius: 3px; /*закругление углов (Google Chrome)*/
+    -moz-border-radius: 3px; /*закругление углов (FireFox)*/
+    -khtml-border-radius: 3px; /*закругление углов (Safari)*/
+    background: #ffffff !important; /* желательно прописывать, так как в Chrome при сохранных данных оно может быть желтым*/
+    outline: none; /* удаляет обводку в браузерах хром(желтая) и сафари(синяя)*/
+    height: 35px; /* высота на свое усмотрение*/
+    width: 360px; /* ширина на свое усмотрение*/
+    color: #aaaaaa; /*цвет шрифта в обычном состоянии*/
+    font-size: 12px; /* Размер шрифта*/
+    padding-left: 15px;
+    font-family: Tahoma; /* Стиль шрифта*/
+ }
+
+ input[type="text"]:focus{
+    /* outline: 1px solid #5c99fa; */
+    box-shadow: 0px 1px 10px 1px #7fa8e9;
+ }
+
+ input[type="submit"]{
+    margin-top: 10px;
+    border: 1px solid #cccccc; /*цвет рамки*/
+    border-radius: 3px; /*закругление углов (общее)*/
+    -webkit-border-radius: 3px; /*закругление углов (Google Chrome)*/
+    -moz-border-radius: 3px; /*закругление углов (FireFox)*/
+    -khtml-border-radius: 3px; /*закругление углов (Safari)*/
+    background: #3c9942; /* желательно прописывать, так как в Chrome при сохранных данных оно может быть желтым*/
+    outline: none; /* удаляет обводку в браузерах хром(желтая) и сафари(синяя)*/
+    height: 40px; /* высота на свое усмотрение*/
+    width: 360px; /* ширина на свое усмотрение*/
+    color: white; /*цвет шрифта в обычном состоянии*/
+    font-size: 18px; /* Размер шрифта*/
+    font-family: Tahoma; /* Стиль шрифта*/
+ }
+
+/*PROFIl*/
+.profil-img{
+    height: 100px;
+    background-color: #3c9942;
+    position: relative;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 70px;
+}
+
+.avatar{
+    width: 100px;
+    margin-top: 45px;
+    /* position: absolute;
+    left: 140px;
+    bottom: -45px;  */
+}
+
+.profil-img, .info, .prof-footer{
+    padding-left: 20px;
+}
+
+.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    color: white;
+}
+
+button{
+    margin-top: 10px;
+    border: 1px solid #cccccc; /*цвет рамки*/
+    border-radius: 3px; /*закругление углов (общее)*/
+    -webkit-border-radius: 3px; /*закругление углов (Google Chrome)*/
+    -moz-border-radius: 3px; /*закругление углов (FireFox)*/
+    -khtml-border-radius: 3px; /*закругление углов (Safari)*/
+    background: #3c9942; /* желательно прописывать, так как в Chrome при сохранных данных оно может быть желтым*/
+    outline: none; /* удаляет обводку в браузерах хром(желтая) и сафари(синяя)*/
+    height: 40px; /* высота на свое усмотрение*/
+    width: 150px; /* ширина на свое усмотрение*/
+    color: white; /*цвет шрифта в обычном состоянии*/
+    font-size: 18px; /* Размер шрифта*/
+    font-family: Tahoma; /* Стиль шрифта*/
+}
+
+.prof-footer{
+    height: 50px;
+    background: #3c9942;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 125px;
+    font-size: 25px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+}
+
+.block{
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.firstname{
+    margin-right: 10px;
+}
+
+.profil-email, .jobs{
+    font-size: 18px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

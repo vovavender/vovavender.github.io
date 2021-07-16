@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+    <link rel="stylesheet" href="style.css">
+    <title>BLACK</title>
+</head>
+<body>
+
+ 
+    <form action="#" name="f3" class="form" onsubmit="submitForm()">
+        <h2>Create your account</h2>
+        
+        <div class="top">
+            <p>First Name</p>
+            <!-- <input type="text" name="first" id="first" placeholder="Write you First Name" required="required"> -->
+            <input type="text" name="first" id="first" placeholder="Write you First Name" required="required">
+
+        </div>
+
+        <div class="top-small">
+            <p>Second Name</p>
+            <input type="text" name="second" id="second" placeholder="Write you Second Name" required="required">
+        </div>
+
+        <div class="top-bottom">
+            <p>Email address</p>
+            <input type="email" name="email" id="email" placeholder="Write you Email" required="required">
+        </div>
+
+        <input type="radio" name="gender" id="article" value="man" required="required">man
+        <input type="radio" name="gender" id="article" value="woman">woman
+
+        <div class="position">
+            <p>Position</p>
+            <select name="select" id="secelt" required="required">
+                <option value="" selected="selected">Choose</option>
+                <option value="Frontend">Frontend</option>
+                <option value="Backend">Backend</option>
+                <option value="QA/QC">QA/QC</option>
+                <option value="JavaScript">JavaScript</option>
+            </select>
+        </div>
+        <input type="checkbox" name="agree" id="agree">  I agree all statments in Terms of service
+        <!-- <input type="checkbox" name="agree" id="agree" onclick="n()"> I agree all statments in Terms of service -->
+
+
+        <div class="register">
+            <!-- <input type="submit" onclick="submitForm()" value="Sign Up" id="sign" name="sign" disabled>  -->
+            <input type="submit" value="Sign Up" id="sign" name="sign" disabled> 
+        </div>
+
+    </form>
+
+
+    <!-- MAN -->
+    <form action="" name="profilman" class="profil-man"> 
+        <div class="profil-img">
+            <img id ="avatar"  alt="" class ="avatar">
+            <!-- <img class ="avatar" src="./images/profile.png" alt="man"> -->
+        </div>
+
+        <div class="info">
+            <div class="block">
+                <p class="firstname"></p>
+                <p class="secondtname"></p>
+            </div>
+            <p class="profil-email"></p>
+            <p class="jobs"></p>
+        </div>
+
+        <div class="back">
+            <!-- <input type="button" value="Sign Out" name="signout" class="signout" id="signout" onclick="GoBack()"> -->
+           <!-- <button onclick="GoBack()" value="Sign Out" name="signout" class="signout" id="signout">Sign Out</button> -->
+           <button value="Sign Out" name="signout" class="signout" id="signout">Sign Out</button>
+        </div>
+
+        <div class="prof-footer">
+           <a href="https://www.linkedin.com/"><i class="uil uil-facebook-f"></i></a>
+           <a href="https://www.facebook.com/"><i class="uil uil-dribbble"></i></a>
+           <a href="https://dribbble.com/search/developer"><i class="uil uil-linkedin-alt"></i></a> 
+        </div>
+
+    </form>
+
+    <!-- WOMAN -->
+
+    <!-- <form action="" name="profil-woman" class="profil-woman">
+
+        <div class="profil-img">
+            <img class ="avatar" src="./images/woman.png" alt="woman">
+        </div>
+
+        <div class="info">
+            <p class="firstname">Vo</p>
+            <p class="secondtname">VoVo</p>
+            <p class="profil-email">VoVo</p>
+            <p class="jobs">VoVoVoVo</p>
+        </div>
+
+        <div class="back">
+            <input type="button" value="Sign Out" name="signout" class="signout" id="signout">
+        </div>
+
+        <div class="prof-footer">
+            <i class="uil uil-facebook-f"></i>
+            <i class="uil uil-dribbble"></i>
+            <i class="uil uil-linkedin-alt"></i>
+        </div>
+
+
+    </form> -->
+    
+    <script src="script.js"></script>
+</body>
+</html>
