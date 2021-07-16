@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HOMEWORK10</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="first show">
+
+            <div class="block top-block">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+
+            <div class="center-block">
+                <input type="button" value="edit" class="btn-edit">
+                <input type="button" value="style" class="btn-style">
+            </div>
+
+            <div class="block bottom-block">
+                <div class="edit-block">
+                    <textarea class="edit-area"></textarea>
+                    <input type="button" value="add" class="btn-add">
+                    <input type="button" value="save" class="btn-save">
+                </div>
+
+                <div class="style-block">
+                    <form name="formstyle">
+                        <div class="form-size">
+                            <h2>Font size</h2>
+                            <input type="radio" onclick="fontSize()" name="size" id="size" value="12px" class="mr-right"><span>12px</span>
+                            <input type="radio" onclick="fontSize()" name="size" id="size" value="14px" class="mr-right"><span>14px</span>
+                            <input type="radio" onclick="fontSize()" name="size" id="size" value="16px" class="mr-right" checked><span>16px</span>
+                            <input type="radio" onclick="fontSize()" name="size" id="size" value="18px" class="mr-right"><span>18px</span>
+                            <input type="radio" onclick="fontSize()" name="size" id="size" value="20px" class="mr-right"><span>20px</span>
+                        </div>
+
+                        <div class="form-family">
+                            <h2>Font family</h2>
+                            <select id="fontFamily">
+                                <option value="" selected>Choose option</option>
+                                <option value="cursive">cursive</option>
+                                <option value="fantasy">fantasy</option>
+                                <option value="monospace">monospace</option>
+                                <option value="sans-serif">sans-serif</option>
+                            </select>
+                        </div>
+
+                        <div class="form-color">
+                            <h2>Color</h2>
+                            <input type="button" value="Color of text" class="btn-text-color mr-right">
+                            <input type="button" value="Background color" class="btn-bg-color">
+                            <div class="colors">
+                                <div class="color-box"></div>
+                                <div class="color-box"></div>
+                                <div class="color-box"></div>
+                                <div class="color-box"></div>
+                                <div class="color-box"></div>
+                                <div class="color-box"></div>
+                                <div class="color-box"></div>
+                                <div class="color-box"></div>
+                                <div class="color-box"></div>
+                            </div>
+
+                            <div class="bg-color">
+                                <div class="color-block"></div>
+                                <div class="color-block"></div>
+                                <div class="color-block"></div>
+                                <div class="color-block"></div>
+                                <div class="color-block"></div>
+                                <div class="color-block"></div>
+                                <div class="color-block"></div>
+                                <div class="color-block"></div>
+                                <div class="color-block"></div>
+                            </div>
+
+                        </div>
+
+                        <div class="form-style">
+                            <input type="checkbox" id="bolds" onclick="fontWeight()" value="bold" class="bolds"><span class="mr-right">Bold text</span>
+                            <input type="checkbox" id="cursives" onclick="fontCursive()" value="cursive" class="cursives"><span>Cursive text</span>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="second">
+            <div class="block">
+                <h2>Choose what you want:</h2>
+                <form name="f3">
+                    <input type="radio" id="article" name="choose" onclick="listTable()" value="table"><span>Table</span>
+                    <input type="radio" id="article" name="choose" onclick="listTable()" value="list"><span>List</span>
+                </form>
+
+                <div class="create-list">
+                    <form name="form-list">
+                        <input type="text" name="count" class="count">
+                        <select id="sl-style" name="type">
+                            <option value="circle">circle</option>
+                            <option value="disc">disc</option>
+                            <option value="square">square</option>
+                        </select>
+                        <input type="button" value="Create list" name="create" class="btn-create-list">
+                    </form>
+                </div>
+
+                <div class="create-table">
+                    <h2>Choose what you want:</h2>
+                    <form name="form-table" class="form-table">
+                        <span>Count TR:</span> <input type="text" id="rows" name="counttr">
+                        <span>Count TD:</span> <input type="text" id="columns"  name="counttd">
+                        <!-- <input type="button" value="Create table" name="new-table" class="btn-create-table"> -->
+                    </form>
+
+                    <h2>Add style to your table:</h2>
+                    <form name="style-table">
+                        <span>Width of TD:</span> <input type="text" id="tablewidth" name="countwidht" class="table-input">
+                        <span>Height of TD:</span> <input type="text" id="tableheight" name="countheight" class="table-input">
+                        <span>Width of border:</span> <input type="text" id="tableborder" name="countborder" class="countborder">
+
+                        <select name="typeborder" id="sl-style" class="typeborder">
+                            <option value="solid">solid</option>
+                            <option value="double">double</option>
+                            <option value="dashed">dashed</option>
+                        </select>
+
+                        <select name="typecolor" id="sl-style">
+                            <option value="black">black</option>
+                            <option value="red">red</option>
+                            <option value="blue">blue</option>
+                            <option value="green">green</option>
+                        </select>
+                        <input type="button" value="Create table" name="new-table" class="btn-create-table">
+                    </form>
+<!-- 
+                    <table>
+                        <tr class="classtr"><td class="classtd"></td></tr>
+                    </table> -->
+                    
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
