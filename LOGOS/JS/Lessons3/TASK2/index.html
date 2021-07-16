@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TASK2</title>
+</head>
+<body>
+
+    <div class="block">
+        <div class="container">
+            <div class="tasks">
+                <h2 class="bottom">Список завдань</h2>
+                <form class="list">
+                    
+                    <label for="#" class="labeltask">
+                        <input type="checkbox" name="checktask" id="checktask"><span class="checkText">HTML5</span>
+                    </label>
+
+                    <label for="#" class="labeltask">
+                        <input type="checkbox" name="checktask" id="checktask"><span class="checkText">CSS3</span>
+                    </label>
+
+                    <label for="#" class="labeltask">
+                        <input type="checkbox" name="checktask" id="checktask"><span class="checkText">SASS/SCSS </span> 
+                    </label>
+
+                    <label for="#" class="labeltask">
+                        <input type="checkbox" name="checktask" id="checktask"><span class="checkText">Bootstrap</span>
+                    </label>
+
+                    <!-- <div class="labeltask">
+                        <input type="checkbox" name="checktask" id="checktask"><span class="checkText">HTML5</span>
+                    </div >
+
+                    <div  class="labeltask">
+                        <input type="checkbox" name="checktask" id="checktask"><span class="checkText">CSS3</span>
+                    </div >
+
+                    <div  class="labeltask">
+                        <input type="checkbox" name="checktask" id="checktask"><span class="checkText">SASS/SCSS </span> 
+                    </div >
+
+                    <div  class="labeltask">
+                        <input type="checkbox" name="checktask" id="checktask"><span class="checkText">Bootstrap</span>
+                    </div > -->
+                </form>
+                
+                <div class="error">
+                    <div class="top">
+                        <h3>Попередження!</h3>
+                        <p id="close">X</p>
+                    </div>
+                    <!-- <p>Пусте поле не можна добавити.</p> -->
+                    <p class="texterror">Останній такс із списку Ви не можете видалити.</p>
+                </div>
+             </div> <!--task class div -->
+
+            <form class="newtask">
+                <h2>Додати завдання</h2>
+                <input type="text" name="task" id="task">
+                <input type="button" name="plus" id="plus" value="Додати ">
+            </form>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
