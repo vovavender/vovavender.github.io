@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css" />
+  <link rel="stylesheet" href="sctyle.css" />
+  <title>BLACKLIST</title>
+</head>
+
+<body>
+  <section class="back-bg">
+    <div class="greate">
+      <div class="top">
+        <div class="circle">
+          <i class="uil uil-check"></i>
+        </div>
+      </div>
+
+      <div class="bottom">
+        <h2>Greate!</h2>
+        <p>Your account has been created successfully</p>
+
+        <input type="button" value="Start Exploring" id="greate-btn" />
+      </div>
+    </div>
+
+    <div class="error">
+      <div class="top-error">
+        <div class="circle-error">
+          <i class="uil uil-times"></i>
+        </div>
+      </div>
+
+      <div class="bottom-error">
+        <h2>Failing!</h2>
+        <p>Please give the data correctly</p>
+
+        <input type="button" value="Try Again" id="error-btn" />
+      </div>
+    </div>
+
+    <form action="#" id="global-form" onsubmit="greateForm()" name="f3">
+      <!-- <form action="#" id="global-form">  -->
+      <h2>Please sign up</h2>
+
+      <div class="firts-name">
+        <input type="text" placeholder="First name" id="login" onkeyup="checkParams()" />
+        <!-- <input type="text" placeholder="First name" id="login" name="login"> -->
+        <!-- <i class="uil form-icon uil-check"></i> -->
+        <div class="wrong-name">
+          <p>Please provide a valid First name</p>
+        </div>
+      </div>
+
+      <div class="lastname">
+        <input type="text" placeholder="Last name" id="last" onkeyup="checkParams()" />
+        <!-- <input type="text" placeholder="Last name" id="last"> -->
+        <!-- <i class="uil form-icon uil-check"></i> -->
+        <div class="wrong-last">
+          <p>Please provide a valid Last name</p>
+        </div>
+      </div>
+
+      <div class="form-email">
+        <input type="email" name="email" id="email" placeholder="Email" onkeyup="checkParams()" />
+        <!-- <input type="email" name="email" id="email" placeholder="Email"> -->
+        <!-- <i class="uil form-icon uil-check"></i> -->
+        <div class="wrong-email">
+          <p>Please provide a valid Email address</p>
+        </div>
+      </div>
+
+      <div class="form-password">
+        <input type="password" name="password" id="password" placeholder="Password" onkeyup="checkParams()" />
+        <!-- <input type="password" name="password" id="password" placeholder="Password"> -->
+        <!-- <i class="uil form-icon uil-check"></i> -->
+        <div class="wrong-password">
+          <p>Please provide a valid Password</p>
+        </div>
+      </div>
+
+      <div class="forwm-check">
+        <!-- <input type="checkbox" name="checked" id="checked" onchange="checkBut()"><span>I agree with Privacy Policy</span> -->
+        <input type="checkbox" name="checked" id="checked" />
+        <span>I agree with Privacy Policy</span>
+        <!-- <input type="checkbox" name="checked" id="checked" onchange="checkFunc()"><span>I agree with Privacy Policy</span> -->
+      </div>
+
+      <!-- <div class="firts-buttons"> -->
+      <!-- <input type="button" value="Sign up" id="form-btn">  -->
+      <!-- <input type="submit" value="Sign up" id="form-btn" disabled> 
+            </div> 
+
+            <div class="firts-buttons"> -->
+      <!-- <input type="button" value="Sign up" id="form-btn">  -->
+      <!-- <input type="submit" value="Sign up" id="form-btn" class="firts-buttons" disabled>  -->
+      <button type="submit" value="Sign up" id="form-btn" class="firts-buttons" disabled>Sign up</button>
+      <!-- </div> -->
+    </form>
+  </section>
+
+  <!-- <script src="script.js"></script> -->
+  <!-- <script src="main.js"></script> -->
+  <!-- <script src="script2.js"></script> -->
+  <script src="scriptblack.js"></script>
+</body>
+
+</html>
