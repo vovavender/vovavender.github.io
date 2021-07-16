@@ -1,0 +1,64 @@
+body{
+    background:#d1d1d1;
+}
+
+.block{
+    width: 60%;
+    height: 500px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+textarea{
+    width: 99.5%;
+    height: 200px;
+}
+
+.top, .small-top, .center, .bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    border: 1px solid coral;
+    background: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.active{
+    background: coral;
+}
+
+.prov{
+    background: gray;
+}
+
+.fourteen, .enter, .tab{
+    width: 100px;
+}
+
+.caps{
+    width: 110px;
+}
+
+.shift{
+    width: 120px;
+}
+
+.shifttwo{
+    width: 150px;
+}
+
+.probil{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background: white;;
+}
+
