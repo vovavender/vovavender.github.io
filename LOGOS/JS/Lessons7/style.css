@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid coral; */
+}
+
+
+form, .dani{
+    margin: 0px auto;
+    width: 45%;
+    /* border: 1px solid black; */
+}
+
+.top, .center, .bottom{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.bottom-span{
+    margin-bottom: 10px;
+}
+
+
+input[type=text], input[type=password], input[type=email]{
+    width: 70%;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+input[type=submit]{
+    padding: 10px;
+    background: none;
+    border: 1px solid green;
+    color: green;
+}
+
+/*TABLE*/
+
+
+table{
+    width: 100%;
+    border-collapse: collapse; /* Способ отображения границы */ 
+}
+
+
+td{
+    border:1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+/* .tbody{
+    display: none;
+}
+
+.table-tr{
+    display: none;
+} */
+
+/* tbody, .reshitka, .table-login, .table-password, .table-email{
+    display: none;
+} */
+
+/* .reshitka, .table-login, .table-password, .table-email{
+    display: none;
+} */
+
+#edit-btn{
+    padding: 5px 10px;
+    background: #ffe055;
+    border: none;
+    /* display: none; */
+}
+
+#delete-btn{
+    padding: 5px 10px;
+    background: #ff5555;
+    border: none;
+    /* display: none; */
+}
+
+#bottom-edit{
+    display: none;
+    /* border: 1px solid coral; */
+}

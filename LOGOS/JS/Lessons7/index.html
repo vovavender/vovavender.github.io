@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>HOMEWORK14</title>
+</head>
+
+<body>
+
+  <section>
+    <form action="" onsubmit="addUser()" class="formAdd">
+      <div class="top">
+        <span class="bottom-span">Login</span>
+        <input type="text" name="login" id="login" placeholder="Enter login" onkeyup="startSubmit()" />
+      </div>
+
+      <div class="center">
+        <span class="bottom-span">Password</span>
+        <input type="password" name="password" id="password" placeholder="Enter password" onkeyup="startSubmit()" />
+      </div>
+
+      <div class="bottom">
+        <span class="bottom-span">Email</span>
+        <input type="email" name="email" id="email" placeholder="Enter email" onkeyup="startSubmit()" />
+      </div>
+
+      <input type="submit" value="Add user" id="submit" disabled />
+
+      <div id="bottom-edit">
+        <input type="submit" value="Edit user" id="edit-user" disabled />
+      </div>
+    </form>
+
+    <div class="dani">
+      <table id="tab1">
+        <thead>
+          <tr>
+            <td>#</td>
+            <td>Login</td>
+            <td>Password</td>
+            <td>Email</td>
+            <td>Edit</td>
+            <td>Delete</td>
+          </tr>
+        </thead>
+
+        <tbody></tbody>
+
+      </table>
+    </div>
+  </section>
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>
